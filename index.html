@@ -40,6 +40,12 @@
     <a href="http://shaunlebron.github.io">shaunlebron.github.io</a></p>
 </article>
 
+<!-- include this joke?
+<article>
+  <h1>Leftpad and You</h1>
+  <p>Advanced Concepts</p>
+</article>
+-->
 
 
 <article>
@@ -51,38 +57,35 @@
 
 
 
+<article>
+<h3>Goals</h3>
+<p><strong>Educate</strong> and <strong>Inspire</strong></p>
+</article>
+
+
+
 
 <article>
 <h3>Overview</h3>
 <ul>
-  <li>Talk Goals + Background
+  <li>Background
   <li>What is Open Source?
-  <li>Why do Open Source?
-  <li>Advice and Lessons Learned
-  <li>Beer!
+  <li>Why do it?
+  <li>Lessons Learned
 </ul>
+<h4>And then beer!</h4>
 </article>
-
-
-
-<article>
-<h3>Talk Goals</h3>
-<p>I want to <strong>educate</strong> you about Open Source.</p>
-<p>I want to <strong>inspire</strong> you to contribute to Open Source.</p>
-</article>
-
 
 
 <article>
 <h3>Who is Chris Oakman?</h3>
 <ul>
-  <li>Developer for over a decade, mainly web and UI development
-  <li>Languages: C++, PHP, Erlang, JavaScript, ClojureScript, HTML/CSS, SQL, and others
-  <li>Career: primary developer of dozens of web applications
-  <li>Open source author: chessboard.js, autocomplete.js, kidif.js, cljs.info, Cuttle,
-    atom-parinfer, sublime-text-parinfer, 4 parinfer ports, and others
-  <li>Open source contributions: t3tr0s, figwheel, cljsfiddle, parinfer (core),
-    pretty-print.net, and others
+  <li>10+ years as a developer
+  <li>7+ languages
+  <li>built dozens of web apps
+  <li>author of 12+ open source projects
+  <li>contributed to many more
+  <li>Currently work at Cisco on an open source project
 </ul>
 <br />
 <h3>Basically, I design and build software programs.</h3>
@@ -91,9 +94,8 @@
 
 
 <article>
-<h3>What is Open Source?</h3>
-<p>You are legally allowed to view, modify, and run software code.</p>
-<p>In most cases, you are additionally allowed to share your modifications publicly.</p>
+<h3>Open Source Definition</h3>
+<p>You are legally allowed to view, modify, run, and share software code.</p>
 </article>
 
 
@@ -107,11 +109,11 @@
 <article class=''>
   <h3>1967 - IBM Airline Control Program</h3>
   <p><img src='img/1967-beatles.jpg' style="width: 92%"></p>
-  <ul style="margin-top:20px">
-    <li>Academic influence of openness and collaboration
+  <ul style="margin-top: 12px">
+    <li>Academic influence
     <li>Hardware and software tightly coupled
     <li>Open Source by necessity
-    <li>"Software Business" doesn't really exist yet
+    <li>"Software Business" doesn't exist yet
   </ul>
 </article>
 
@@ -119,11 +121,11 @@
 
 <article class=''>
   <h3>1976 - "Open Letter to Hobbyists"</h3>
-  <p><img src='img/1976-beegees.jpg' style="width:64%"></p>
-  <ul style="margin-top:20px">
-    <li>Hardware becoming more standardized
-    <li>"Software Business" is starting to become A Thing
-    <li>Computers beginning to spread outside of academia and large corporations
+  <p><img src='img/1976-beegees.jpg' style="width:68%"></p>
+  <ul style="margin-top: 20px">
+    <li>Hardware beginning to standardize
+    <li>Software becoming expensive to produce
+    <li>Software starting to be sold
   </ul>
 </article>
 
@@ -144,11 +146,11 @@
 
 <article class=''>
   <h3>1998 - Netscape Open Sources their Browser</h3>
-  <p><img src='img/1998-nsync.jpg' style="width:75%"></p>
-  <ul style="margin-top:10px">
-    <li>Software is king, and Microsoft dominates the industry
-    <li>Rise of the web, where Open Source has always been popular
-    <li>The term "Open Source" is coined with the goal of being business friendly
+  <p><img src='img/1998-nsync.jpg' style="width: 94%"></p>
+  <ul style="margin-top: 10px">
+    <li>Software business is king
+    <li>Rise of the web
+    <li>"Open Source" is coined; more business friendly
   </ul>
 </article>
 
@@ -156,12 +158,12 @@
 
 <article class=''>
   <h3>2014 - Microsoft Open Sources .NET Core</h3>
-  <p><img src='img/2014-tswift.jpg' style="width:65%"></p>
-  <ul style="margin-top:20px">
-    <li>Almost the total opposite of "Open Letter to Hobbyists"
-    <li>Open Source enjoys large corporate backing and support
+  <p><img src='img/2014-tswift.jpg' style="width: 72%"></p>
+  <ul style="margin-top: 10px">
+    <li>Opposite of "Open Letter to Hobbyists"
+    <li>Large corporate backing and support
     <li>Business friendly licenses prevail
-    <li>Businesses creating value using software, but not selling software directly
+    <li>Alternate business models
   </ul>
 </article>
 
@@ -170,12 +172,11 @@
 
 
 <article class=''>
-  <h3>What is the Future of Open Source?</h3>
+  <h3>Future of Open Source?</h3>
   <ul>
-    <li>Hopefully more businesses continue to recognize the benefit of Open Source
-    <li>Business models detached from selling software directly
+    <li>More business involvement
+    <li>More alternative business models
     <li>"Business friendly" licenses seem to be a winner
-    <li>No one can know what the future holds
   </ul>
   <h4>What do you want the future of Open Source to look like?</h4>
 </article>
@@ -185,16 +186,14 @@
 <h3>Understand Licenses (2 types)</h3>
   <h4>Copyleft</h4>
   <ul>
+    <li><strong>MUST SHARE</strong> changes publicly
     <li>GNU General Public License (GPL) is most common
-    <li>You are free to use and modify the software, but <strong>must</strong> also share any
-      changes publicly.
   </ul>
 
   <h4>Copyfree / Permissive software license</h4>
   <ul>
+    <li><strong>NOT REQUIRED</strong> to share changes
     <li>MIT, BSD, ISC, Apache, Eclipse, and many others
-    <li>You are free to use and modify the software, and are not required to
-      share any changes you have made.
   </ul>
 </article>
 
@@ -208,13 +207,13 @@
 <article class=''>
   <h3>Reasons to do Open Source</h3>
   <ul>
-    <li>Gain experience (no permission required)
-    <li>Learn a new technology
-    <li>Resume fodder / talent demonstration
-    <li>Scratch a personal itch
+    <li>Grow and Learn
+    <li>Build résumé
+    <li>Talent demonstration
+    <li>Personal interest
     <li>Effortless modularization *
     <li>Attract and identify talent *
-    <li>Contribution feels good. "Giving back"
+    <li>Rising tide lifts all boats *
   </ul>
   <h4>What reasons do you have to work on Open Source?</h4>
   <div class='source'>
@@ -225,10 +224,37 @@
 
 
 
+<article>
+  <h2>Lessons Learned</h2>
+</article>
+
+
+
 
 <article>
-  <h2>Advice &amp; Lessons Learned</h2>
+<h3>Three Lessons</h3>
+<ul>
+  <li>README importance
+  <li>Asynchronous communication
+  <li>Many ways to contribute
+</ul>
 </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!--

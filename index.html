@@ -25,6 +25,31 @@
     height: 80px;
     vertical-align: middle;
   }
+
+  .left-list {
+    float: left;
+  }
+
+  .right-list {
+    float: left;
+    margin-left: 60px;
+  }
+
+  .left-list li, .right-list li {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+  }
+
+  .issue-one {
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .issue-one p {
+    margin: 0 0 5px 0;
+  }
   </style>
 </head>
 <body style="display: none">
@@ -178,6 +203,7 @@
     <li>More alternative business models
     <li>"Business friendly" licenses seem to be a winner
   </ul>
+  <br />
   <h4>What do you want the future of Open Source to look like?</h4>
 </article>
 
@@ -222,168 +248,92 @@
 </article>
 
 
-
-
 <article>
   <h2>Lessons Learned</h2>
 </article>
 
 
-
-
 <article>
-<h3>Three Lessons</h3>
+<h3>README Importance</h3>
 <ul>
-  <li>README importance
-  <li>Asynchronous communication
-  <li>Many ways to contribute
+  <li>Communicate intent
+  <li>What is the problem?
+  <li>How are you solving it?
+  <li>Any pitfalls?
 </ul>
-</article>
 
+<br />
 
+<div class="issue-one">
+  <p><strong>Sort files alphabetically on a USB drive</strong></p>
+  <p>My car stereo supports playing mp3 files off of a USB thumbdrive. Unfortunately, it doesn't always sort files and folders alphabetically.</p>
+  <p>The purpose of this project is to find a fix for this problem.</p>
+</div>
 
+<br />
 
+<div class="issue-one">
+  <p><strong>Python implementation of Parinfer</strong></p>
+  <p>Parinfer is a novel way of editing LISP code that infers code structure from indentation.</p>
+  <p>Python is a popular programming language used by many text editors for plugins and extensions.</p>
+  <p>Having a Parinfer implementation written as a Python library opens the door for more text editors to use Parinfer.</p>
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-<article class="fill">
-  <h3>Grain of Salt</h3>
-  <p><img src="img/salt.jpg" alt="" /></p>
-</article>
--->
-
-
-<article class=smaller>
-<h3>Best Practices</h3>
-<ul>
-  <li>Code (Source code control)
-  <li>README
-  <li>Issue management
-  <li>CHANGELOG
-  <li>Testing
-  <li>Semantic versioning
-  <li>Docs, examples, tutorials
-  <li>Contribution guide
-  <li>Integration with package management tools / downloads
-  <li>Non-profit foundation
-  <li>Steering committee
-</ul>
-<h4>Many ways to contribute!</h4>
-</article>
-
-
-
-<article>
-<h3>Play Nice in the Sandbox</h3>
-<ul>
-  <li>Follow common conventions for your users
-  <li>Embrace the tools that the project is using
-  <li>Remember that your goal is for people to <strong>use</strong> your work, not
-    learn your weird conventions
-</ul>
-</article>
-
-
-
-<article>
-<h3>Project Scope and Rationale</h3>
-<ul>
-  <li>What problem are you trying to solve?
-  <li>Why are you attempting to solve the problem in this way?
-  <li>Hard to predict how people will use your project. Be thorough in intention, docs, examples, etc.
-  <li>Best practices will be different for different project scopes.
-  <li>Define scope in "Issue #1" and README
-</ul>
 </article>
 
 
 <article>
-<h3>Issue #1 - Sort files alphabetically on a USB drive</h3>
-<p>My car stereo supports playing mp3 files off of a USB thumbdrive. Unfortunately, it doesn't always sort files and folders alphabetically.</p>
-<p>The purpose of this project is to find a fix for this problem.</p>
-</article>
-
-
-
-<article>
-<h3>Issue #1 - Python implementation of Parinfer</h3>
-<p>Parinfer is a novel way of editing LISP code that infers code structure from indentation.</p>
-<p>Python is a popular programming language used by many text editors for plugins and extensions.</p>
-<p>Having a Parinfer implementation written as a Python library opens the door for more text editors to use Parinfer.</p>
-</article>
-
-
-<article class="smaller">
-<h3>Project Size and Implications</h3>
+<h3>Embrace Asynchonous Communication</h3>
 <ul>
-  <li>Just you
-    <ul>
-      <li>Find a solution
-    </ul>
-  <li>You and some friends (less than 5 people total)
-    <ul>
-      <li>Collaboration starts
-    </ul>
-  <li>5+ people involved (time for v1.0.0)
-    <ul>
-      <li>Time for v1.0.0
-    </ul>
-  <li>100+ users
-    <ul>
-      <li>Gaining traction; you're probably on to something
-      <li>Project will probably live on without you
-    </ul>
-  <li>5000+ users (issue management and project scope &gt; code)
-    <ul>
-      <li>Non-code activities start to have a greater impact
-      <li>Scope and direction management important
-    </ul>
-  <li>50,000+ users (non-profit org)
-    <ul>
-      <li>Large impact; likely many invested parties
-      <li>Keep the peace :)
-    </ul>
-</ul>
-</article>
-
-
-<article>
-<h3>On Communication</h3>
-<ul>
-  <li>Embrace asynchronous communication
-  <li>Escalate as necessary
+  <li>Default method
+  <li>Slow down!
   <li>Be explicit and nice
-  <li>Assume a multiplier (1:100 ratio)
   <li>Assume good intentions
   <li>"It's OK"
 </ul>
 </article>
 
 
+
+
 <article>
-<h3>Contribute Any Way You Want</h3>
+<h3>Many ways to contribute</h3>
 <ul>
-  <li>You do not have to be an experienced programmer to contribute to Open Source
-  <li>You do not have to even contribute code
-  <li>What would make this project better? Docs? Examples? A logo? etc
-  <li>How do you want to contribute?
+  <li>Code is one of many pieces
+  <li>What would make this project better?
+  <li>How can you best help?
   <li>You will make a difference
 </ul>
+
+<br />
+<br />
+
+<div class="left-list">
+  <ul style="font-size: 18px;">
+    <li>README
+    <li>Contribution guide
+    <li>Issue management
+    <li>CHANGELOG
+    <li>Testing
+    <li>Version / release management
+    <li>Documentation
+  </ul>
+</div>
+<div class="right-list">
+  <ul style="font-size: 18px;">
+    <li>Examples
+    <li>Tutorials
+    <li><strong>Code</strong>
+    <li>Integration with package management
+    <li>Non-profit foundation
+    <li>Devops
+    <li>Steering committee
+  </ul>
+</div>
+<div style="clear: both"></div>
 </article>
 
-<article class="">
+<article>
   <p><img style="margin-top:-10px" src='img/you-can-do-it.jpg' alt="" /></p>
 </article>
 
